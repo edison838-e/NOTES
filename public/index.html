@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NOTES</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<header>
+  <h1>NOTES.</h1>
+  <button id="editBtn">EDIT</button>
+</header>
+
+<main>
+  <div id="noteList"></div>
+  <input id="noteTitle" placeholder="Untitled">
+  <textarea id="noteBody" placeholder="Write something..."></textarea>
+</main>
+
+<footer>
+  <button id="playBtn">▶ MUSIC</button>
+  <input id="volume" type="range" min="0" max="1" step="0.01" value="0.5">
+  <audio id="audio" loop></audio>
+</footer>
+
+<script src="/app.js"></script>
+</body>
+</html>
